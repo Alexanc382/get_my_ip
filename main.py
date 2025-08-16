@@ -27,7 +27,7 @@ def get_ip():
 
 
 window = Tk()
-window.title('VPN')
+window.title('My IP')
 # размер окна и параметры его отображения(посередине экрана)
 screenwidth = window.winfo_screenwidth()
 screenheight = window.winfo_screenheight()
@@ -46,5 +46,6 @@ label_text_ip = Label(text='Данные вашего компьютера:')
 label_text_ip.pack()
 label_ip = Label(window)
 label_ip.pack()
+
 
 window.mainloop()
